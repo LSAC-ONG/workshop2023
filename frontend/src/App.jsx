@@ -37,10 +37,10 @@ function App() {
     <>
       <h1>Todo App</h1>
       <ul>
-        {/* Afiseaza todo-urile */}
-        {todos.map((todo) => (
-          <Todo todo={todo} key={todo.todo} />
-        ))}
+        {/* 
+          TODO 1: Show all todos on the screen using the Todo component 
+          Hint: map
+        */}
       </ul>
 
       <form onSubmit={handleNewTodoSubmit}>

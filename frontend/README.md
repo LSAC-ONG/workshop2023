@@ -1,8 +1,37 @@
-# React + Vite
+# Frontend Exercises
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Task 1
 
-Currently, two official plugins are available:
+[Show](src/App.jsx#L41) all todos on the screen using the Todo component
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<details>
+    <summary> Hint </summary>
+    Use the <a href="https://legacy.reactjs.org/docs/lists-and-keys.html">map</a> function
+</details>
+
+## Task 2
+
+Complete the [URL](src/Todo.jsx#L9) in order to make a request to the DELETE endpoint
+<details>
+    <summary> Hint </summary>
+    Look in the <a href="../backend/index.js">backend</a> to see the endpoint
+</details>
+
+## Task 3
+
+Display the [todo](src/Todo.jsx#L28) in a paragraph
+
+<details>
+    <summary> Hint </summary>
+    The function receives an argument <b>props</b>
+</details>
+
+## Task 4
+
+Add the onClick handler to the [button](src/Todo.jsx#L33) in order to delete the todo
+
+## Useful Resources
+
+- [React Components and props](https://legacy.reactjs.org/docs/components-and-props.html) 
+- [Map, filter and reduce functions in JS](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d)
+- [HTML Tags](https://www.w3schools.com/tags/)

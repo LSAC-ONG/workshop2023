@@ -1,10 +1,14 @@
 import React from 'react';
 import './Todo.css';
 
+const BACKEND_URL = 'http://127.0.0.1:3000'
+
 function Todo(props) {
 	const handleDelete = () => {
-		// Completat cu URL-ul corect catre backend
-		fetch(`http://127.0.0.1:3000/todos/${props.todo.todo}`, {
+		/*
+			TODO 2: Complete the URL to delete the todo 
+		*/
+		fetch(`${BACKEND_URL}`, {
 			method: 'DELETE',
 		})
 			.then(response => {
@@ -20,10 +24,13 @@ function Todo(props) {
 
 	return (
 		<div className="todo-item">
-			{/* Completat cu text in paragraf */}
-			<p>{props.todo.todo}</p>
-			{/* Apelat functia de delete */}
-			<button onClick={handleDelete}>Delete</button>
+			{/* 
+				TODO 3: Display the todo text in a paragraph 
+			*/}
+			{/* 
+				TODO 4: Add the onClick event handler to the button
+			*/}
+			<button onClick={() => {}}>Delete</button>
 		</div>
 	);
 }
